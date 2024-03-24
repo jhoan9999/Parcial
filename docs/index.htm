@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto; /* Esto centrará el contenedor horizontalmente */
+        text-align: center;
+        padding: 20px;
+        margin-top: 100px; /* Esto centrará el contenedor verticalmente */
+    }
+    .google-logo {
+        width: 200px;
+    }
+    .search-form {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .search-input {
+        padding: 10px;
+        width: 500px;
+        border-radius: 24px 0 0 24px;
+        border: 1px solid #dfe1e5;
+        font-size: 16px;
+        outline: none;
+    }
+    .search-btn {
+        padding: 10px 20px;
+        border: none;
+        background-color: #f2f2f2;
+        border-radius: 0 24px 24px 0;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .links {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .links a {
+        margin: 0 10px;
+        color: #5f6368;
+        text-decoration: none;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo de Google" class="google-logo">
+    <form action="https://www.google.com/search" method="GET" class="search-form">
+        <input type="text" name="q" class="search-input" placeholder="Buscar en Google o escribir una URL">
+        <button type="submit" class="search-btn">Buscar en Google</button>
+    </form>
+    <div class="links">
+        <a href="#">Publicidad</a>
+        <a href="#">Negocios</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Cómo funciona la búsqueda</a>
+    </div>
+</div>
+</body>
+</html>
